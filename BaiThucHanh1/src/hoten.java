@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class App {
-    public public static void public static void main(String[] args) throws Excaption {
+    public public static void main(String[] args) throws Excaption {
         Scanner sc = new Scanner(system.in);
         String strHoTen = "";
         system.out.println("Nhap ho ten: ")
