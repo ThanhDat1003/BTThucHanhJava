@@ -11,7 +11,6 @@ public class bai1701 {
         bai1701.giaiPTBac2(a, b, c);
     }
     public static void giaiPTBac2(float a, float b, float c) {
-        // kiểm tra các hệ số
         if (a == 0) {
             if (b == 0) {
                 System.out.println("Pt vo nghiem!");
@@ -21,11 +20,9 @@ public class bai1701 {
             }
             return;
         }
-        // tính delta
         float delta = b*b - 4*a*c;
         float x1;
         float x2;
-        // tính nghiệm
         if (delta > 0) {
             x1 = (float) ((-b + Math.sqrt(delta)) / (2*a));
             x2 = (float) ((-b - Math.sqrt(delta)) / (2*a));
