@@ -1,34 +1,15 @@
 import java.util.Scanner;
- 
-/**
- * Giải phương trình bậc 2
- * 
- * @author viettuts.vn
- */
-public class App {
+public class bai1701 {
     private static Scanner scanner = new Scanner(System.in);
-    /**
-     * main
-     * 
-     * @param args
-     */
     public static void main(String[] args) {
         System.out.print("Nhap he so bac 2, a = ");
-        float a = App.scanner.nextFloat();
+        float a = bai1701.scanner.nextFloat();
         System.out.print("Nhap he so bac 1, b = ");
-        float b = App.scanner.nextFloat();
+        float b = bai1701.scanner.nextFloat();
         System.out.print("Nhap hang so tu do, c = ");
         float c = scanner.nextFloat();
-        App.giaiPTBac2(a, b, c);
+        bai1701.giaiPTBac2(a, b, c);
     }
-     
-    /**
-     * Giải phương trình bậc 2: ax2 + bx + c = 0
-     * 
-     * @param a: hệ số bậc 2
-     * @param b: hệ số bậc 1
-     * @param c: số hạng tự do
-     */
     public static void giaiPTBac2(float a, float b, float c) {
         // kiểm tra các hệ số
         if (a == 0) {
