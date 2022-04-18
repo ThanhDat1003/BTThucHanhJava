@@ -1,23 +1,23 @@
 package Shapes;
-
+import java.util.Scanner;
 public class HinhHoc {
-    public final float PI = 3.14f;
+    public final float Pi = 3.14f;
 
     public String ten;
-    public Float chuVi;
+    public float chuVi;
     public float dienTich;
     public float theTich;
 
     public void xuatTen() {
-        System.out.println("\n\n=====" + ten + "=====");
+        System.out.println("ban dang kiem tra "+ten);
     }
-    public void inChuvi() {
-        System.out.println("Chu vi = " + chuVi);
+    public void inChuVi() {
+        System.out.println("Chu vi = "+ chuVi);
     }
     public void inDienTich() {
-        System.out.println("Dien tich = " + dientich);
+        System.out.println("Dien tich = "+ dienTich);
     }
     public void inTheTich() {
-        System.out.println("The tich = " + theTich);
+        System.out.println("The tich = "+ theTich);
     }
 }
